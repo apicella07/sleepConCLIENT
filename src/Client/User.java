@@ -6,7 +6,6 @@
 package Client;
 import java.io.Serializable;
 import java.util.Objects;
-import javafx.stage.Stage;
 
 
 public class User implements Serializable { 

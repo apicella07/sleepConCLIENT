@@ -19,8 +19,6 @@ import static java.time.LocalDate.now;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 
 /**
  *
@@ -194,23 +192,6 @@ public class Menu {
             e.printStackTrace(); 
         }
     }
-    
-    public static void showReportsDB(){
-        ObservableList<Report> repList = FXCollections.observableArrayList();
-        
-        Report rep;
-        repList = pmi.showReports();
-        
-        Iterator it = repList.iterator();
-        while(it.hasNext()){
-            rep = (Report) it.next();
-            System.out.println(rep.toString());
-            
-        }
-        
-        
-    }
-    
     
     
     public static void addPatient() throws IOException, ParseException {
