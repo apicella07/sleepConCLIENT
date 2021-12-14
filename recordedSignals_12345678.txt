@@ -1,0 +1,4 @@
+Name of the patient: Gabriela Apicella
+Today's date: 2021-12-14  10:04:17.337
+EEG	EEG with LUX
+X
